@@ -1,0 +1,12 @@
+@prefix r: <http://example.org/resource/> .
+@prefix o: <http://example.org/ontology/> .
+
+# TODO Probably reuse Doap
+
+r:Jassa
+    a o:JsLibrary ;
+    rdfs:label "Jassa"@en ;
+    rdfs:comment "JAvascript Suite for Sparql Access" ;
+    o:npmPgkName "jassa" ;
+    .
+
