@@ -11,3 +11,8 @@ table.jslibs {
     margin-left: 50px;
     font-size: 1.3em;
 }
+
+.npm-install {
+    font-family: monospace;
+    font-size: 0.7em;
+}
