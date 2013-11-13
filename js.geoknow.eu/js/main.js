@@ -19,7 +19,7 @@ angular.module('jsgeoknow')
   /*
    * Sponate
    */
-  var service = sponate.ServiceUtils.createSparqlHttp('http://localhost:8890/sparql', ['http://js.geoknow.eu/']); 
+  var service = sponate.ServiceUtils.createSparqlHttp('http://geoknow.eu/sparql', ['http://js.geoknow.eu/']); 
   var store = new sponate.StoreFacade(service, prefixes);
 
   store.addMap({
@@ -35,7 +35,6 @@ angular.module('jsgeoknow')
 
   var promise = store.jslib.find().asList();
   $scope.result = sponate.angular.bridgePromise(promise, $q.defer(), $rootScope);
-  debugger;
   console.log($scope.result);
 
 });

@@ -1,0 +1,12 @@
+table.jslibs tr {
+    line-height: 30px;
+}
+
+table.jslibs td {
+    padding: 20px;
+}
+
+table.jslibs {
+    margin-left: 50px;
+    font-size: 1.3em;
+}

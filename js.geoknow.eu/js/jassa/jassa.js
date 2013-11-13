@@ -7504,6 +7504,7 @@ or simply: Angular + Magic Sparql = Angular Marql
 
 
 	ns.bridgePromise = function(jqPromise, ngDeferred, ngScope, fn) {
+		//debugger;
 		jqPromise.done(function(data) {
 			
 			var d = fn ? fn(data) : data;
@@ -7516,6 +7517,8 @@ or simply: Angular + Magic Sparql = Angular Marql
 		}).fail(function() {
 			// FIXME: TypeError: ngDeferred.fail is not a function
 			//ngDeferred.fail();
+			console.log('########')
+			ngDeferred.reject();
 		});
 		
 		return ngDeferred.promise;
