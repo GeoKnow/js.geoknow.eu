@@ -16,3 +16,8 @@ table.jslibs {
     font-family: monospace;
     font-size: 0.7em;
 }
+
+.geoknow-js-logo {
+    width: 200px;
+    float: left;
+}
