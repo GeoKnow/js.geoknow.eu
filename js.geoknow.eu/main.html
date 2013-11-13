@@ -62,11 +62,12 @@
 							<!-- Feature #1 -->
 								<section id="jslibs-section">
 									 <table class="jslibs">
-									 	<tr><th>Name</th><th>Description</th><th>Package Name</th></tr>
+									 	<tr><th>Name</th><th>Description</th><th>Package Name</th><th>How to install</th></tr>
 										<tr ng-repeat="r in result">
 											<td>{{r.name}}</td>
 											<td>{{r.description}}</td>
 											<td>{{r.pkgName}}</td>
+											<td class="npm-install">npm install {{r.pkgName}}</td>
 										</tr>
 									</table> 
 								</section>

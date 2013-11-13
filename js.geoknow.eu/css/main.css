@@ -2,8 +2,9 @@ table.jslibs tr {
     line-height: 30px;
 }
 
-table.jslibs td {
+table.jslibs td, table.jslibs th {
     padding: 20px;
+    text-align: center;
 }
 
 table.jslibs {
